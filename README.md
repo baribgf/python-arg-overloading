@@ -1,5 +1,5 @@
 # Python Overloading
-This is a python module to implement the method overloading OOP concept.
+This is a python module to implement the method argument overloading OOP concept.
 
 ## Example:
 
@@ -12,6 +12,6 @@ This is a python module to implement the method overloading OOP concept.
 >>> @Overload
 >>> def greet(expr, name):
 ...     print(f"{expr}, {name}")
->>> greet('bari') # Output: Hello, bari
+>>> greet('bari')       # Output: Hello, bari
 >>> greet('Hi', 'bari') # Output: Hi, bari
 ```
